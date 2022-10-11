@@ -89,7 +89,7 @@ $$ sMAPE = \frac{1}{N} \displaystyle\sum_{i=1}^{N} \frac{|y_i - \hat{y_i}|}{(|y_
 Итоговая метрика складывается из двух величин:
 
 $$ Итоговое sMAPE = 25\%\times{} sMAPE(rougher) + 75\% \times{} sMAPE(final) $$
-$$\text{%}%$$
+$$\text{Ghbld}$$
 
 ## Используемые библиотеки
 numpy, pandas, missingno, matplotlib, seaborn, sklearn
