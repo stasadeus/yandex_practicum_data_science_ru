@@ -62,7 +62,7 @@
 Необходимо смоделировать процесс восстановления золота из золотосодержащей руды.
 Эффективность обогащения рассчитывается по формуле  
 
-$$ Recovery = \frac{C\times{}(F - T)}{F\times{}(C - T)}\times{} 100\% $$
+$Recovery = \frac{C\times{}(F - T)}{F\times{}(C - T)}\times{} 100$%
 
 где:  
 - C — доля золота в концентрате после флотации/очистки;  
@@ -75,7 +75,7 @@ $$ Recovery = \frac{C\times{}(F - T)}{F\times{}(C - T)}\times{} 100\% $$
 
 Для решения задачи вводится новая метрика качества — sMAPE (англ. Symmetric Mean Absolute Percentage Error, «симметричное среднее абсолютное процентное отклонение»).
 
-$$ sMAPE = \frac{1}{N} \displaystyle\sum_{i=1}^{N} \frac{|y_i - \hat{y_i}|}{(|y_i| + |\hat{y_i}|)/2} \times{} 100\% $$  
+$sMAPE = \frac{1}{N} \displaystyle\sum_{i=1}^{N} \frac{|y_i - \hat{y_i}|}{(|y_i| + |\hat{y_i}|)/2} \times{} 100$%
 
 где:  
 - $y_i$ - значение целевого признака для объекта с порядковым номером i в выборке, на которой измеряется качество;  
@@ -88,8 +88,7 @@ $$ sMAPE = \frac{1}{N} \displaystyle\sum_{i=1}^{N} \frac{|y_i - \hat{y_i}|}{(|y_
 
 Итоговая метрика складывается из двух величин:
 
-$$ Итоговое sMAPE = 25\%\times{} sMAPE(rougher) + 75\% \times{} sMAPE(final) $$
+$Итоговое sMAPE = 25$% $\times{} sMAPE(rougher) + 75$% $\times{} sMAPE(final)$
 
-$$ 25 \times{} 100\% $$  
 ## Используемые библиотеки
 numpy, pandas, missingno, matplotlib, seaborn, sklearn
